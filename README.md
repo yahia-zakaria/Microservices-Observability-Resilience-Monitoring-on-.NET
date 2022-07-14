@@ -84,31 +84,31 @@ Wait for docker compose all microservices. That’s it! (some microservices need
 
 You can launch microservices as below urls:
 
-Catalog API -> http://host.docker.internal:8001/swagger/index.html
+Catalog API -> http://localhost:8001/swagger/index.html
 
-Basket API -> http://host.docker.internal:8002/swagger/index.html
+Basket API -> http://localhost:8002/swagger/index.html
 
-Discount API -> http://host.docker.internal:8003/swagger/index.html
+Discount API -> http://localhost:8003/swagger/index.html
 
-Ordering API -> http://host.docker.internal:8005/swagger/index.html
+Ordering API -> http://localhost:8005/swagger/index.html
 
-Shopping.Aggregator -> http://host.docker.internal:8010/swagger/index.html
+Shopping.Aggregator -> http://localhost:8010/swagger/index.html
 
-API Gateway -> http://host.docker.internal:8000/Catalog
+API Gateway -> http://localhost:8000/Catalog
 
-Rabbit Management Dashboard -> http://host.docker.internal:15672 -- guest/guest
+Rabbit Management Dashboard -> http://localhost:15672 -- guest/guest
 
-Portainer -> http://host.docker.internal:9000 -- admin/36RR45ey@@@@
+Portainer -> http://localhost:9000 -- admin/36RR45ey@@@@
 
-pgAdmin PostgreSQL -> http://host.docker.internal:5050 -- admin@aspnetrun.com/admin1234
+pgAdmin PostgreSQL -> http://localhost:5050 -- admin@aspnetrun.com/admin1234
 
-Elasticsearch -> http://host.docker.internal:9200
+Elasticsearch -> http://localhost:9200
 
-Kibana -> http://host.docker.internal:5601
+Kibana -> http://localhost:5601
 
-Web Status -> http://host.docker.internal:8009
+Web Status -> http://localhost:8012
 
-Web UI -> http://host.docker.internal:8011
+Web UI -> http://localhost:8011
 
 Launch http://host.docker.internal:8007 in your browser to view the Web Status. Make sure that every microservices are healthy.
 Launch http://host.docker.internal:8006 in your browser to view the Web UI. You can use Web project in order to call microservices over API Gateway. When you checkout the basket you can follow queue record on RabbitMQ dashboard.
